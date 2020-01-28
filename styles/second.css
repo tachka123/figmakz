@@ -1,0 +1,171 @@
+.charter {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 20px;
+	color: #4f4f4f;
+	position: relative;
+	display: block;
+	width: min-content;
+	margin-bottom: 24px;
+}
+
+.charter::after {
+	display: block;
+	position: absolute;
+	content: '';
+	height: 5px;
+	width: 100%;
+	background-color: var(--main-color);
+	left: 0;
+	bottom: -7px;
+}
+
+.heading {
+	family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 20px;
+	color: #4f4f4f;
+	margin-bottom: 20px;
+}
+
+.mainNew img {
+	margin-bottom: 23px;
+}
+
+.photoGallery {
+	margin-bottom: 60px;
+}
+
+.H2 {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+	text-transform: uppercase;
+	color: #4f4f4f;
+	margin-bottom: 20px;
+}
+
+.selectedGalleryItem {
+	width: 706px;
+	position: relative;
+	height: 460px;
+	margin-bottom: 10px;
+}
+
+.selectedImg {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.rectangle {
+	position: absolute;
+	width: 120px;
+	height: 5px;
+	left: 20px;
+	bottom: 75px;
+	background: #ff0048;
+}
+
+.selectedImgFirstLine {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 18px;
+	color: #ffffff;
+	position: absolute;
+	bottom: 50px;
+	left: 20px;
+}
+
+.selectedImgSecondLine {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 18px;
+	color: #ffffff;
+	position: absolute;
+	bottom: 30px;
+	left: 20px;
+}
+
+.listOfGallaryItems {
+	width: 700px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 25px;
+}
+
+.listOfGallaryItems li img {
+	width: 132px;
+	height: 90px;
+	object-fit: cover;
+}
+
+.--selectedItemInList {
+	outline: 5px solid var(--main-color);
+	outline-offset: -4px;
+}
+
+.galleryInfo {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	color: var(--main-color-2);
+}
+
+.video {
+	margin-bottom: 45px;
+}
+
+.videoPlayer {
+	width: 700px;
+	height: 460;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.videoPlayer video {
+	width: 700px;
+	height: 460;
+}
+
+.videoPlayer::after {
+	display: block;
+	position: absolute;
+	content: '';
+	height: 5px;
+	width: 100%;
+	background-color: var(--main-color);
+	left: 0;
+	bottom: -1px;
+}
+
+.videoMainInfo {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 18px;
+	color: var(--main-color-2);
+	margin-bottom: 4px;
+}
+
+.videoInfo {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 18px;
+	color: var(--main-color-2);
+}
